@@ -1,10 +1,14 @@
 // import Navbar from "./components/Navbar"
-
+import { useEffect } from "react"
 import Card from "./components/card"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 
 function App() {
+  useEffect(() => {
+    alert("hey welcome to my page")
+  }, [])
+  
   
   return (
     <>
