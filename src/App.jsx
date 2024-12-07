@@ -13,8 +13,9 @@ function App() {
       <div className="cards">
       <Card title="Card Title" description="This is the description of the card." />
       <Card title="Another Card" description="Another description here." />
-        <Card/>
-        <Card/>
+      <Card title="Another Card" description="Another description here." />
+      <Card title="Another Card" description="Another description here." />
+    
         
       </div>
       <Footer/>
